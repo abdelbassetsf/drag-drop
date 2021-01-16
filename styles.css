@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: lightcoral;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty {
+  height: 200px;
+  width: 200px;
+  background: #fff;
+  margin: 20px;
+  border: 3px solid;
+}
+
+.fill {
+  background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80');
+  background-size: cover;
+  background-position: center center;
+  width: 195px;
+  height: 195px;
+  cursor: pointer;
+}
+
+.hovered {
+  background-color: #333;
+  border-style: dashed;
+  border-color: #fff;
+}
+
+.hold {
+  border: 5px solid #ccc;
+}
